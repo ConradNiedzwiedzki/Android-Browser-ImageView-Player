@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.pjatk.kn_miniprojekt5.widget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="pl.pjatk.kn_miniprojekt5.widget.MediaService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="pl.pjatk.kn_miniprojekt5.widget.Widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="pl.pjatk.kn_miniprojekt5.widget.action.GO_TO_URL" />
+                <action android:name="pl.pjatk.kn_miniprojekt5.widget.action.SET_BACKGROUND" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Z6KNZ\\Downloads\\pjatk-widgetexample-master\\pjatk-widgetexample-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Z6KNZ\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\b57992dc06b23189b75a3497084d7314\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15,21,22,23,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895,1317,1437,1500,1654,1717",
+                        "endLines": "6,7,8,14,20,21,22,25,26,27",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "326,397,480,890,1312,1432,1495,1649,1712,1844"
+                    },
+                    "to": {
+                        "startLines": "3,8,9,10,16,22,23,24,27,28",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "99,375,446,529,939,1361,1481,1544,1698,1761",
+                        "endLines": "7,8,9,15,21,22,23,26,27,28",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "370,441,524,934,1356,1476,1539,1693,1756,1888"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Z6KNZ\\Downloads\\pjatk-widgetexample-master\\pjatk-widgetexample-master\\app\\src\\main\\res\\values-v14\\dimens.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "209",
+                        "endColumns": "43",
+                        "endOffsets": "248"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "43",
+                        "endOffsets": "94"
+                    }
+                }
+            ]
+        }
+    ]
+}

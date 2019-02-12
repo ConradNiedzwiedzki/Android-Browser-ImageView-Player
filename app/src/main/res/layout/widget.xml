@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6300cc"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:id="@+id/visitWWWButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/black"
+        android:padding="10dp"
+        android:text="Visit pjatk.edu.pl"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/setBackgroundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/visitWWWButton"
+        android:layout_toRightOf="@+id/visitWWWButton"
+        android:background="@android:color/black"
+        android:padding="10dp"
+        android:text="Change Background"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/visitWWWButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:drawableTop="@drawable/ic_play_circle_outline_white_24dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/visitWWWButton"
+        android:layout_toRightOf="@+id/startButton"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:drawableTop="@drawable/ic_pause_circle_outline_white_24dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/visitWWWButton"
+        android:layout_toRightOf="@+id/pauseButton"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:drawableTop="@drawable/ic_stop_white_24dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/visitWWWButton"
+        android:layout_toRightOf="@+id/stopButton"
+        android:layout_toEndOf="@+id/stopButton"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:drawableTop="@drawable/ic_skip_next_white_24dp"
+        android:textColor="@android:color/white"
+         />
+
+    <ImageView
+        android:id="@+id/imageViewBitmap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:background="@android:color/black"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>
